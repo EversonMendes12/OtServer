@@ -1,0 +1,14 @@
+local config = {
+    positions = {
+        ["CC21"] = {x = 89, y = 180, z = 7},
+		["Itens Inicial"] = {x = 160, y = 41, z = 8}, 
+    }
+}
+
+function onThink(cid, interval, lastExecution)
+    for text, pos in pairs(config.positions) do
+        doSendAnimatedText(pos, text, math.random(1, 255))
+    end
+    
+    return TRUE
+end  

@@ -1,0 +1,62 @@
+<!-- ================================================= -->
+<!-- ===================== PICCOLO =================== -->
+<!-- ================================================= -->
+
+VOCATION == 32 - 44
+
+- Hell Granade 		-- SPELL PRICIPAL.
+- Hellzone Granade	-- SPELL COMBO.
+- Namekjin Rage		-- SPELL ÁREA.
+- Ultimate Power Up	-- BUFF.
+
+- Chybie Makankosappo	-- CANUDO.
+
+<!-- ================================================= -->
+<!-- ====================== BULMA ==================== -->
+<!-- ================================================= -->
+
+VOCATION == 364 - 375
+
+
+- Missile Impact 	-- SPELL PRICIPAL.
+- Divine Missile	-- SPELL COMBO.
+- Artillery Destruction	-- SPELL ÁREA.
+- Ultimate Power Up	-- BUFF.
+
+- robot			-- SPECIAL SPELL.
+
+<!-- ================================================= -->
+<!-- ====================== GOKU ===================== -->
+<!-- ================================================= -->
+
+VOCATION == 1 - 16 E 473
+
+- Genki Renzoku		-- SPELL PRICIPAL.
+- Small Genki Dama // Dragon Fist Attack	-- SPELL COMBO.
+- Super Explosion Wave	-- SPELL ÁREA.
+- Ultimate Power Up	-- BUFF.
+
+- Chou Kamehameha	-- CANUDO. 
+
+OBS: GOKU TEM MÁGIA ESPECIAL, ÚNICO..
+GENKI DAMA - MAGIA DEVE SER ALTERADA PARA OCORRER EM TODA A TELA, E EXIBIR ALERTA VERMELHO, PARA OS PLAYERs.
+
+
+<!-- ================================================= -->
+<!-- ====================== KURIRIN ================== -->
+<!-- ================================================= -->
+
+VOCATION == 244 - 255
+
+
+- Super Kienzan Blast	-- SPELL PRICIPAL.
+- Evil Kienzan		-- SPELL COMBO.
+- Dark Furie		-- SPELL ÁREA.
+- Ultimate Power Up	-- BUFF.
+
+- Chou Kamehameha	-- CANUDO. 
+
+
+
+
+

@@ -1,0 +1,464 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+
+<!-- ================================================= -->
+<!-- ================== SPELLs MONSTERS ============== -->
+<!-- ================================================= -->
+
+
+
+
+
+
+
+
+	
+<!-- ================================================= -->
+<!-- ================== SPELLs GERAIS ================ -->
+<!-- ================================================= -->
+
+	<instant name="Aura" words="aura" lvl="1" mana="10" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="Iniciais/aura.lua">
+	</instant>
+	<instant name="Jump" words="jump" lvl="1" mana="1000" prem="0" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="Iniciais/jump.lua">
+	</instant>
+	<instant name="Sense" words="sense" lvl="1" mana="1000" aggressive="0" params="1" exhaustion="1000" needlearn="0" event="function" value="searchPlayer">
+	</instant>
+	<instant name="PowerDown" words="powerdown" lvl="1" mana="1" aggressive="0" exhaustion="1000" prem="0" event="script" value="Iniciais/powerdown.lua">
+	</instant>
+	
+	<instant name="Ultimate Power Up" words="ultimate power up" lvl="400" mana="15000" maglv="100" prem="0" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="LvL400/ultimate power up.lua">
+	</instant>
+	
+<!-- ================================================= -->
+<!-- ===================== PICCOLO =================== -->
+<!-- ================================================= -->
+	
+	<instant name="Hell Granade" words="hell granade" lvl="25" mana="6000" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL200/hell granade.lua">
+			<vocation id="501"/>
+			<vocation id="32"/>
+			<vocation id="33"/>
+			<vocation id="34"/>
+			<vocation id="35"/>
+			<vocation id="36"/>
+			<vocation id="37"/>
+			<vocation id="38"/>
+			<vocation id="39"/>
+			<vocation id="40"/>
+			<vocation id="41"/>
+			<vocation id="42"/>
+			<vocation id="43"/>
+			<vocation id="44"/>
+			<vocation id="504"/>
+			<vocation id="83"/>
+			<vocation id="84"/>
+			<vocation id="85"/>
+			<vocation id="86"/>
+			<vocation id="87"/>
+			<vocation id="88"/>
+			<vocation id="89"/>
+			<vocation id="90"/>
+			<vocation id="91"/>
+			<vocation id="92"/>
+			<vocation id="93"/>
+			<vocation id="94"/>
+	</instant>
+	
+	<instant name="Hellzone Granade" words="Hellzone Granade" lvl="25" mana="7000" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL200/hellzone granade.lua">
+		<vocation id="501"/>
+		<vocation id="32"/>
+		<vocation id="33"/>
+		<vocation id="34"/>
+		<vocation id="35"/>
+		<vocation id="36"/>
+		<vocation id="37"/>
+		<vocation id="38"/>
+		<vocation id="39"/>
+		<vocation id="40"/>
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
+		<vocation id="511"/>
+		<vocation id="206"/>
+		<vocation id="207"/>
+		<vocation id="208"/>
+		<vocation id="209"/>
+		<vocation id="210"/>
+		<vocation id="211"/>
+		<vocation id="212"/>
+		<vocation id="213"/>
+		<vocation id="214"/>
+		<vocation id="215"/>
+		<vocation id="216"/>
+		<vocation id="217"/>
+	</instant>
+	
+	<instant name="Namekjin Rage" words="namekjin rage" lvl="25" mana="8000" prem="0" exhaustion="1000" needlearn="0" event="script" value="LvL200/namekjin rage.lua">
+		<vocation id="501"/>
+		<vocation id="32"/>
+		<vocation id="33"/>
+		<vocation id="34"/>
+		<vocation id="35"/>
+		<vocation id="36"/>
+		<vocation id="37"/>
+		<vocation id="38"/>
+		<vocation id="39"/>
+		<vocation id="40"/>
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
+		<vocation id="511"/>
+		<vocation id="206"/>
+		<vocation id="207"/>
+		<vocation id="208"/>
+		<vocation id="209"/>
+		<vocation id="210"/>
+		<vocation id="211"/>
+		<vocation id="212"/>
+		<vocation id="213"/>
+		<vocation id="214"/>
+		<vocation id="215"/>
+		<vocation id="216"/>
+		<vocation id="217"/>
+	</instant>
+	
+	<instant name="Chybie Makankosappo" words="chybie makankosappo" lvl="25" mana="12000" maglv="100" prem="0" blockwalls="1" exhaustion="1500" needlearn="0" event="script" value="LvL400/chybie makankosappo.lua">
+		<vocation id="501"/>
+		<vocation id="37"/>
+		<vocation id="38"/>
+		<vocation id="39"/>
+		<vocation id="40"/>
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
+	</instant>
+	
+<!-- ================================================= -->
+<!-- ====================== BULMA ==================== -->
+<!-- ================================================= -->
+	
+	<instant name="Missile Impact" words="missile Impact" lvl="25" mana="6000" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL200/missile Impact.lua"> <!-- LvL200/mystic bash.lua"-->
+		<vocation id="523"/>
+		<vocation id="364"/>
+		<vocation id="365"/>
+		<vocation id="366"/>
+		<vocation id="367"/>
+		<vocation id="368"/>
+		<vocation id="369"/>
+		<vocation id="370"/>
+		<vocation id="371"/>
+		<vocation id="372"/>
+		<vocation id="373"/>
+		<vocation id="374"/>
+		<vocation id="375"/>
+	</instant>
+	
+	<instant name="Divine Missile" words="divine missile" lvl="25" mana="5000" maglv="100" prem="0" range="10" needtarget="1" needlearn="0" blockwalls="1" exhaustion="0" event="script" value="LvL250/divine missile.lua">
+		<vocation id="523"/>
+		<vocation id="364"/>
+		<vocation id="365"/>
+		<vocation id="366"/>
+		<vocation id="367"/>
+		<vocation id="368"/>
+		<vocation id="369"/>
+		<vocation id="370"/>
+		<vocation id="371"/>
+		<vocation id="372"/>
+		<vocation id="373"/>
+		<vocation id="374"/>
+		<vocation id="375"/>
+	</instant>
+	
+	<instant name="Artillery Destruction" words="artillery destruction" lvl="25" mana="8000" prem="0" exhaustion="1000" needlearn="0" event="script" value="LvL200/artillery destruction.lua">
+		<vocation id="523"/>
+		<vocation id="364"/>
+		<vocation id="365"/>
+		<vocation id="366"/>
+		<vocation id="367"/>
+		<vocation id="368"/>
+		<vocation id="369"/>
+		<vocation id="370"/>
+		<vocation id="371"/>
+		<vocation id="372"/>
+		<vocation id="373"/>
+		<vocation id="374"/>
+		<vocation id="375"/>
+	</instant>
+	
+	<instant name="robot" words="robot" lvl="25" mana="10000" prem="0" maglv="110" exhaustion="1000" needlearn="0" event="script" value="LvL250/clone robot.lua">
+		<vocation id="523"/>
+		<vocation id="364"/>
+		<vocation id="365"/>
+		<vocation id="366"/>
+		<vocation id="367"/>
+		<vocation id="368"/>
+		<vocation id="369"/>
+		<vocation id="370"/>
+		<vocation id="371"/>
+		<vocation id="372"/>
+		<vocation id="373"/>
+		<vocation id="374"/>
+		<vocation id="375"/>
+	</instant>
+	
+<!-- ================================================= -->
+<!-- ====================== GOKU ===================== -->
+<!-- ================================================= -->
+
+	<instant name="Genki Renzoku" words="genki renzoku" lvl="25" mana="6000" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL200/genki renzoku.lua">
+	<!-- Goku -->
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+		<vocation id="9"/>
+		<vocation id="10"/>
+		<vocation id="11"/>
+		<vocation id="12"/>
+		<vocation id="13"/>
+		<vocation id="15"/>
+		<vocation id="16"/>
+		<vocation id="473"/>
+		<vocation id="532-541"/>
+		<vocation id="632-641"/>
+		<vocation id="499"/>
+	<!-- Gogeta -->
+		<vocation id="5"/>
+		<vocation id="602-611"/>
+		<vocation id="21"/>
+		<vocation id="14"/>
+		<vocation id="29"/>
+	</instant>
+	
+	<instant name="Small Genki Dama" words="small genki dama" lvl="25" mana="8000" maglv="100" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL250/small genki dama.lua">
+	<!-- Goku -->
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+		<vocation id="9"/>
+		<vocation id="10"/>
+		<vocation id="11"/>
+		<vocation id="12"/>
+		<vocation id="13"/>
+		<vocation id="15"/>
+		<vocation id="16"/>
+		<vocation id="473"/>
+		<vocation id="532-541"/>
+		<vocation id="632-641"/>
+		<vocation id="499"/>
+	<!-- Gogeta -->
+		<vocation id="5"/>
+		<vocation id="602-611"/>
+		<vocation id="21"/>
+		<vocation id="14"/>
+		<vocation id="29"/>
+	</instant>
+	
+	<instant name="Super Explosion Wave" words="super explosion wave" lvl="25" mana="8000" prem="0" exhaustion="1000" needlearn="0" event="script" value="LvL200/super explosion wave.lua">
+	<!-- Goku -->
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+		<vocation id="9"/>
+		<vocation id="10"/>
+		<vocation id="11"/>
+		<vocation id="12"/>
+		<vocation id="13"/>
+		<vocation id="15"/>
+		<vocation id="16"/>
+		<vocation id="473"/>
+		<vocation id="532-541"/>
+		<vocation id="632-641"/>
+		<vocation id="499"/>
+	<!-- Gogeta -->
+		<vocation id="5"/>
+		<vocation id="602-611"/>
+		<vocation id="21"/>
+		<vocation id="14"/>
+		<vocation id="29"/>
+	<!-- Vegeta -->
+		<vocation id="17"/>
+		<vocation id="18"/>
+		<vocation id="19"/>
+		<vocation id="20"/>
+		<vocation id="22"/>
+		<vocation id="23"/>
+		<vocation id="24"/>
+		<vocation id="25"/>
+		<vocation id="26"/>
+		<vocation id="27"/>
+		<vocation id="28"/>
+		<vocation id="30"/>
+		<vocation id="31"/>
+		<vocation id="474"/>
+		<vocation id="500"/>
+		<vocation id="531"/>
+		<vocation id="45"/>
+		<vocation id="46"/>
+		<vocation id="47"/>
+		<vocation id="48"/>
+		<vocation id="49"/>
+		<vocation id="50"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="56"/>
+		<vocation id="507"/>
+		<vocation id="140"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="151"/>
+		<vocation id="520"/>
+		<vocation id="328"/>
+		<vocation id="329"/>
+		<vocation id="330"/>
+		<vocation id="331"/>
+		<vocation id="332"/>
+		<vocation id="333"/>
+		<vocation id="334"/>
+		<vocation id="335"/>
+		<vocation id="336"/>
+		<vocation id="337"/>
+		<vocation id="338"/>
+		<vocation id="339"/>
+	</instant>
+
+
+<!-- ================================================= -->
+<!-- ====================== KURIRIN ================== -->
+<!-- ================================================= -->
+	
+	<instant name="Super Kienzan Blast" words="Super Kienzan Blast" lvl="25" mana="6000" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL200/super kienzan blast.lua">
+		<vocation id="514"/>
+		<vocation id="244"/>
+		<vocation id="245"/>
+		<vocation id="246"/>
+		<vocation id="247"/>
+		<vocation id="248"/>
+		<vocation id="249"/>
+		<vocation id="250"/>
+		<vocation id="251"/>
+		<vocation id="252"/>
+		<vocation id="253"/>
+		<vocation id="254"/>
+		<vocation id="255"/>
+	</instant>
+	
+	<instant name="Evil Kienzan" words="evil kienzan" lvl="25" mana="6000" prem="0" range="10" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="LvL200/evil kienzan.lua">
+		<vocation id="514"/>
+		<vocation id="244"/>
+		<vocation id="245"/>
+		<vocation id="246"/>
+		<vocation id="247"/>
+		<vocation id="248"/>
+		<vocation id="249"/>
+		<vocation id="250"/>
+		<vocation id="251"/>
+		<vocation id="252"/>
+		<vocation id="253"/>
+		<vocation id="254"/>
+		<vocation id="255"/>
+	</instant>
+	
+	<instant name="Dark Furie" words="dark furie" lvl="25" mana="8000" prem="0" exhaustion="1000" needlearn="0" event="script" value="LvL200/dark furie.lua">
+		<vocation id="514"/>
+		<vocation id="244"/>
+		<vocation id="245"/>
+		<vocation id="246"/>
+		<vocation id="247"/>
+		<vocation id="248"/>
+		<vocation id="249"/>
+		<vocation id="250"/>
+		<vocation id="251"/>
+		<vocation id="252"/>
+		<vocation id="253"/>
+		<vocation id="254"/>
+		<vocation id="255"/>
+	</instant>
+	
+
+
+<!-- ================================================= -->
+<!-- ====================== CANUDO =================== -->
+<!-- ================================================= -->
+	
+	
+<instant name="Chou Kamehameha" words="chou kamehameha" lvl="25" mana="12000" maglv="100" prem="0" blockwalls="1" exhaustion="1500" needlearn="0" event="script" value="LvL400/chou kamehameha.lua">
+	<!-- Goku -->
+		<vocation id="9"/>
+		<vocation id="10"/>
+		<vocation id="11"/>
+		<vocation id="12"/>
+		<vocation id="13"/>
+		<vocation id="15"/>
+		<vocation id="16"/>
+		<vocation id="473"/>
+		<vocation id="532-541"/>
+		<vocation id="632-641"/>
+		<vocation id="499"/>
+	<!-- Gogeta -->
+		<vocation id="14"/>
+		<vocation id="602-611"/>
+		<vocation id="29"/>
+		<vocation id="508"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="514"/>
+		<vocation id="249"/>
+		<vocation id="250"/>
+		<vocation id="251"/>
+		<vocation id="252"/>
+		<vocation id="253"/>
+		<vocation id="254"/>
+		<vocation id="255"/>
+		<vocation id="525"/>
+		<vocation id="592-601"/>
+		<vocation id="612-621"/>
+		<vocation id="393"/>
+		<vocation id="394"/>
+		<vocation id="395"/>
+		<vocation id="396"/>
+		<vocation id="397"/>
+		<vocation id="398"/>
+		<vocation id="399"/>
+		<vocation id="526"/>
+		<vocation id="418"/>
+		<vocation id="419"/>
+		<vocation id="420"/>
+		<vocation id="421"/>
+		<vocation id="422"/>
+		<vocation id="423"/>
+		<vocation id="424"/>
+	</instant>
+	
+	
+</spells>

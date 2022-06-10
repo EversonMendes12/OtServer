@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<mod name="Simple Task" version="3.0" author="Vodkart" contact="xtibia.com" enabled="yes">  
+<config name="task_func"><![CDATA[
+
+tasktabble = {
+["acquas"] = {monster_race={"acqua"}, storage_start = 200201, storage = 91001,count = 2500,exp = 25000000,money = 2500000, reward = {{12780,100}}},
+["ancestral guardians"] = {monster_race={"ancestral guardian","bojack","super bojack"}, storage_start = 200202, storage = 91002,count = 4000,exp = 40000000,money = 4000000, reward = {{12780,100},{13394,1}}},
+["ancient dinosaurs"] = {monster_race={"ancient dinosaur","ancient triceratops"}, storage_start = 200203, storage = 91003,count = 500,exp = 5000000,money = 500000, reward = {{12779,100}}},
+["assassins"] = {monster_race={"assassin"}, storage_start = 200204, storage = 91004,count = 500,exp = 5000000,money = 500000, reward = {{12779,100}}},
+["atlantids"] = {monster_race={"atlantid"}, storage_start = 200205, storage = 91005,count = 2500,exp = 25000000,money = 2500000, reward = {{12779,100}}},
+["oozarus"] = {monster_race={"oozaru","prince oozaru","saiyan oozaru","baby oozaru","golden oozaru"}, storage_start = 200206, storage = 91006,count = 1500,exp = 15000000,money = 1500000, reward = {{12779,100}}},
+["bandits"] = {monster_race={"bandit gun","bandit human","bandit scout","bandit swordman","human"}, storage_start = 200207, storage = 91007,count = 500,exp = 5000000,money = 500000, reward = {{12779,100}}},
+["saiyans"] = {monster_race={"raditz","bardock","false saiyan","trunks ssj2","gohan ssj2","goku ginyu","saiyan"}, storage_start = 200208, storage = 91008,count = 1000,exp = 1000000,money = 1000000, reward = {{12779,100}}},
+["dragons"] = {monster_race={"dragon","black dragon","undead dragon","maniraptora"}, storage_start = 200209, storage = 91009,count = 5000,exp = 50000000,money = 5000000, reward = {{12780,100}}},
+["boars"] = {monster_race={"boar"}, storage_start = 200210, storage = 91010,count = 5000,exp = 50000000,money = 5000000, reward = {{12779,100}}},
+["saiyans ssj3"] = {monster_race={"goku ssj3","gotenks ssj3"}, storage_start = 200211, storage = 91011,count = 250, exp = 2500000,money = 2500000, reward = {{12780,100}}},
+["saiyans ssj4"] = {monster_race={"goku ssj4","vegeta ssj4","trunks ssj4","gohan ssj4","turles ssj4","raditz ssj4","bardock ssj4","broly ssj4","gogeta ssj4","gotenks ssj4"}, storage_start = 200212, storage = 91012,count= 1500, exp = 15000000,money = 1500000, reward = {{12780,100}}},
+["saiyans ssj5"] = {monster_race={"goku ssj5","vegeta ssj5","trunks ssj5","gohan ssj5","turles ssj5","raditz ssj5","bardock ssj5","broly ssj5"}, storage_start = 200213, storage = 91013,count= 1500, exp = 15000000,money = 1500000, reward = {{12780,100},{13396,1}}},
+["shenlongs"] = {monster_race={"suu shenron","san shenron","li shenron","li shenron max","ryan shenlong","chii shenlong","uu shenlong"}, storage_start = 200214, storage = 91014,count= 2500, exp = 25000000,money = 2500000, reward = {{12780,100}}},
+["demons"] = {monster_race={"demon","demonic","dabura"}, storage_start = 200215, storage = 91015,count = 1000, exp = 10000000,money = 1000000, reward = {{12780,100}}},
+["dinosaurs"] = {monster_race={"dino","triceratops","dinosaur"}, storage_start = 200216, storage = 91016,count = 250, exp = 2500000,money = 250000, reward = {{12779,100}}},
+["djins"] = {monster_race={"djin","golden djin"}, storage_start = 200217, storage = 91017,count = 1000, exp = 10000000, money = 1000000, reward = {{12780,100}}},
+["nameks"] = {monster_race={"namekjin","strong namek","elder namekjin","namekjin mindcontroller","furie namek","namekjin scout","namekjin cultist","ultra namekjin","namekjin warrior"}, storage_start = 200218, storage = 91018,count = 5000, exp = 50000000,money = 5000000, reward = {{12779,100}}},
+["majin boo's"] = {monster_race={"fat boo","evil boo","majin boo","strong boo","boo"}, storage_start = 200219, storage = 91019,count = 1000, exp = 10000000, money = 1000000, reward = {{12780,100}}},
+["janembas"] = {monster_race={"janemba","fat janemba","furie janemba","hell janemba"}, storage_start = 200220, storage = 91020,count = 1000, exp = 10000000,money = 1000000, reward = {{12780,100}}},
+["androids"] = {monster_race={"android","android warrior","terminator","destroyer","omega destroyer","robotron","humanoid cyborg","frontal cyborg","c16","c17","c18","c19","c20","c19 and c20","super c17","super c18"}, storage_start = 200221, storage = 91021,count = 5000, exp = 50000000, money = 5000000, reward = {{12780,100},{13395,1}}},
+["cell's"] = {monster_race={"cell jr","cell","perfect cell","furie cell"}, storage_start = 200222, storage = 91022,count = 250, exp = 2500000,money = 250000, reward = {{12780,100}}},
+["ghosts"] = {monster_race={"ghost","ghost ssj3","hell ghost"}, storage_start = 200223, storage = 91023,count = 250, exp = 2500000,money = 250000, reward = {{12780,100}}},
+["hydrosaurs"] = {monster_race={"hydrosaur"}, storage_start = 200224, storage = 91024,count = 3, exp = 3000000,money = 500000, reward = {{12780,100}}},
+["elementals"] = {monster_race={"fire elemental","ice elemental","wind elemental"}, storage_start = 200225, storage = 91025,count = 500, exp = 5000000,money = 500000, reward = {{12779,100}}},
+["paikuhans"] = {monster_race={"paikuhan","super paikuhan"}, storage_start = 200226, storage = 91026,count = 3000, exp = 30000000,money = 3000000, reward = {{12779,100}}},
+["saibamens"] = {monster_race={"saibamen","water saibamen","hellfire","swampper"}, storage_start = 200227, storage = 91027,count = 2000, exp = 20000000,money = 2000000, reward = {{12779,100}}},
+["vampires"] = {monster_race={"vampire"}, storage_start = 200228, storage = 91028,count = 100, exp = 1000000,money = 100000, reward = {{12779,100}}},
+["zombies"] = {monster_race={"zombie"}, storage_start = 200229, storage = 91029,count = 100, exp = 1000000,money = 100000, reward = {{12779,100}}},
+["tsuful's"] = {monster_race={"baby","tsuful","evil tsuful","tsuful ssj5","baby oozaru"}, storage_start = 200230, storage = 91030,count = 1500, exp = 15000000,money = 1500000, reward = {{12780,100}}},
+["warlock"] = {monster_race={"warlock"}, storage_start = 200231, storage = 91031,count = 1, exp = 1000000,money = 1000000, reward = {{12780,100}}},
+["titanius"] = {monster_race={"titanius"}, storage_start = 200232, storage = 91032,count = 1, exp = 2000000,money = 2000000, reward = {{12780,100}}},
+["hawk"] = {monster_race={"hawk"}, storage_start = 200233, storage = 91033,count = 1, exp = 1000000,money = 1000000, reward = {{12780,100}}},
+["fire guardian 1"] = {monster_race={"fire guardian1"}, storage_start = 200234, storage = 91034,count = 1, exp = 1000000,money = 1000000, reward = {{12780,100}}},
+["fire guardian 2"] = {monster_race={"fire guardian2"}, storage_start = 200235, storage = 91035,count = 1, exp = 1000000,money = 1000000, reward = {{12780,100}}},
+["fire guardian 3"] = {monster_race={"fire guardian3"}, storage_start = 200236, storage = 91036,count = 1, exp = 1000000,money = 1000000, reward = {{12780,100}}},
+["animals"] = {monster_race={"wolf","wolf beast","crocodile","snake"}, storage_start = 200237, storage = 91037,count = 100, exp = 1000000,money = 100000, reward = {{12779,100}}},
+["hell scorpions"] = {monster_race={"hell scorpion"}, storage_start = 200238, storage = 91038,count = 50, exp = 50000000,money = 2000000, reward = {{12780,100}}}
+}
+
+
+configbosses_task = {
+{race = "minotaur",Playerpos = {x = 189, y = 57, z = 7}, FromPosToPos = {{x = 186, y = 54, z = 7},{x = 193, y = 60, z = 7}},time = 5},
+{race = "necromancer",Playerpos = {x = 196, y = 39, z = 7}, FromPosToPos = {{x = 195, y = 37, z = 7},{x = 198, y = 41, z = 7}}, time = 5},
+{race = "dragon",Playerpos = {x = 208, y = 59, z = 7}, FromPosToPos = {{x = 206, y = 56, z = 7},{x = 209, y = 65, z = 7}}, time = 5}
+}
+
+function CheckTask(cid)
+for k, v in pairs(tasktabble) do
+if getPlayerStorageValue(cid,v.storage_start) >= 1 then return true end
+end
+return false
+end
+function finisheAllTask(cid)
+local config = {
+exp = {true,10000000},
+money = {true,1000000},
+items ={true,{{13393,1},{13424,1},{13425,1}}},
+premium ={true,7}
+}
+local x = true
+for k, v in pairs(tasktabble) do
+if tonumber(getPlayerStorageValue(cid,v.storage)) then
+x = false
+end
+end
+if x == true then
+setPlayerStorageValue(cid, 521456, 0)
+local b = getGlobalStorageValue(63005) if b == -1 then b = 1 end
+setGlobalStorageValue(63005,b+1)
+doBroadcastMessage('[Task Mission Complete] '..getCreatureName(cid)..' was the '..b..' to finish the task!.')
+doPlayerAddPremiumDays(cid, config.premium[1] == true and config.premium[2] or 0)
+doPlayerAddExp(cid, config.exp[1] == true and config.exp[2] or 0)
+doPlayerAddMoney(cid, config.money[1] == true and config.money[2] or 0)
+if config.items[1] == true then doAddItemsFromList(cid,config.items[2]) end
+local dolls = {
+    [13401] = "C16 Doll",
+    [13402] = "Goku Doll",
+    [13403] = "Vegeta Doll",
+    [13404] = "Trunks Doll",
+    [13405] = "Majin Boo Doll",
+    [13406] = "Piccolo Doll",
+    [13407] = "Son Gohan Doll",
+    [13408] = "Chibi Gohan Doll",
+    [13409] = "Cell Doll",
+    [13410] = "Uub Doll",
+    [13411] = "C17 Doll",
+    [13412] = "C18 Doll",
+    [13413] = "Cooler Doll",
+    [13414] = "Tsuful Doll",
+    [13415] = "Dende Doll",
+    [13416] = "Gotenks Doll",
+    [13417] = "Freeza Doll",
+    [13418] = "Jenk Doll",
+    [13419] = "Kaio Doll",
+    [13420] = "Bardock Doll",
+    [13421] = "Broly Doll",
+    [13422] = "Saiyan Goten Doll",
+    [13423] = "Saiyan Trunks Doll",
+}
+
+local rand = {}
+for itemid, _ in pairs(dolls) do
+    table.insert(rand, itemid)
+end
+rand = rand[math.random(#rand)]
+doItemSetAttribute(doPlayerAddItem(cid, rand), "name", ""..dolls[rand].." / "..getCreatureName(cid).." completou todas tasks")
+end
+end
+function HavePlayerPosition(cid, from, to)
+	return isInRange(getPlayerPosition(cid), from, to) and true or false
+end
+function getRankStorage(cid, value, max, RankName) -- by vodka
+local str =""
+str = "--[".. (RankName == nil and "RANK STORAGE" or ""..RankName.."") .."]--\n\n"
+local query = db.getResult("SELECT `player_id`, `value` FROM `player_storage` WHERE `key` = "..value.." ORDER BY cast(value as INTEGER) DESC;")
+if (query:getID() ~= -1) then k = 1 repeat if k > max then break end
+str = str .. "\n " .. k .. ". "..getPlayerNameByGUID(query:getDataString("player_id")).." - [" .. query:getDataInt("value") .. "]"
+k = k + 1 until not query:next() end return doShowTextDialog(cid, 2529, str)
+end
+function getItemsInContainerById(container, itemid) -- Function By Kydrai
+			local items = {}
+			if isContainer(container) and getContainerSize(container) > 0 then
+							for slot=0, (getContainerSize(container)-1) do
+											local item = getContainerItem(container, slot)
+											if isContainer(item.uid) then
+															local itemsbag = getItemsInContainerById(item.uid, itemid)
+															for i=0, #itemsbag do
+																			table.insert(items, itemsbag[i])
+															end
+											else
+															if itemid == item.itemid then
+																			table.insert(items, item.uid)
+															end
+											end
+							end
+			end
+			return items
+end
+function doPlayerAddItemStacking(cid, itemid, quant) -- by mkalo
+	local item = getItemsInContainerById(getPlayerSlotItem(cid, 3).uid, itemid)
+	local piles = 0
+	if #item > 0 then
+			for i,x in pairs(item) do
+					if getThing(x).type < 100 then
+							local it = getThing(x)
+							doTransformItem(it.uid, itemid, it.type+quant)
+							if it.type+quant > 100 then
+									doPlayerAddItem(cid, itemid, it.type+quant-100)
+							end
+					else
+						   piles = piles+1
+					end
+			end
+	else
+			return doPlayerAddItem(cid, itemid, quant)
+	end
+	if piles == #item then
+			doPlayerAddItem(cid, itemid, quant)
+	end
+end
+function getItemsFromList(items) -- by vodka
+local str = ''
+if table.maxn(items) > 0 then
+for i = 1, table.maxn(items) do
+str = str .. items[i][2] .. ' ' .. getItemNameById(items[i][1])
+if i ~= table.maxn(items) then str = str .. ', ' end end end
+return str
+end
+function doAddItemsFromList(cid,items) -- by vodka
+if table.maxn(items) > 0 then
+for i = 1, table.maxn(items) do
+local count = items[i][2]
+while count > 0 do
+if isItemStackable(items[i][1]) then
+doPlayerAddItemStacking(cid, items[i][1], 1)
+else
+doPlayerAddItem(cid, items[i][1],1)
+end
+count = count - 1
+end
+end
+end
+end
+		function pairsByKeys(t, f)
+		  local a = {}
+		  for n in pairs(t) do table.insert(a, n) end
+		  table.sort(a, f)
+		  local i = 0
+		  local iter = function ()
+				i = i + 1
+				if a[i] == nil then return nil
+				else return a[i], t[a[i]]
+				end
+		  end
+		  return iter
+		end
+]]></config>
+<event type="login" name="TaskLogin" event="script"><![CDATA[
+function onLogin(cid)
+registerCreatureEvent(cid, "KillTask")
+return true
+end]]></event>
+<talkaction words="/task;!task" event="buffer"><![CDATA[
+domodlib('task_func')
+local param = string.lower(param)
+if param == "rank" then
+getRankStorage(cid, 521456, 20, "Task Rank Finalizadas") return true
+end
+local str = ""
+str = str .. "Tasks Completadas :\n\n"
+for k, v in pairsByKeys(tasktabble) do
+local contagem = getPlayerStorageValue(cid, v.storage)
+if (contagem == -1) then contagem = 1 end
+str = str..k.." = ".. (not tonumber(contagem) and "["..contagem.."]" or "["..((contagem)-1).."/"..v.count.."]") .."\n"
+end
+str = str .. ""
+return doShowTextDialog(cid, 12749, str)
+]]></talkaction>	
+<event type="kill" name="KillTask" event="script"><![CDATA[
+domodlib('task_func')
+function onKill(cid, target, lastHit)
+if(isMonster(target) == true) then
+local n = string.lower(getCreatureName(target))
+for race, mob in pairs(tasktabble) do
+if getPlayerStorageValue(cid,mob .storage_start) >= 1 then
+for i = 1,#mob.monster_race do
+if n == mob.monster_race[i] then
+local contagem = getPlayerStorageValue(cid, mob.storage)
+if (contagem == -1) then contagem = 1 end
+if not tonumber(contagem) then return true end
+if contagem > mob.count then return true end
+if contagem > mob.count then return true end
+setPlayerStorageValue(cid, mob.storage, contagem+1)
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE,""..(contagem == mob.count and "Parabéns! Voce finalizou a task de "..race.."." or "Total [" .. contagem .. "/" .. mob.count .. "] " .. race .. ".").."")
+end
+end
+end
+end
+end
+return true
+end]]></event>
+</mod>

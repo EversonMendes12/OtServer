@@ -1,0 +1,28 @@
+[12/10/2019 0:52:47] > Using SHA1 encryption
+[12/10/2019 0:52:47] >> Loading RSA key
+[12/10/2019 0:52:47] >> Starting SQL connection
+
+[12/10/2019 0:52:47] > WARNING: max_allowed_packet might be set too low for binary map storage.
+[12/10/2019 0:52:47] Use the following query to raise max_allow_packet: SET GLOBAL max_allowed_packet = 16776192;
+[12/10/2019 0:52:47] >> Running Database Manager
+[12/10/2019 0:52:47] > No tables were optimized.
+[12/10/2019 0:52:47] >> Loading items (OTB)
+[12/10/2019 0:52:47] >> Loading items (XML)
+[12/10/2019 0:52:47] [Warning - Items::loadFromXml] Duplicate registered item with id 13540
+[12/10/2019 0:52:47] >> Loading groups
+[12/10/2019 0:52:47] >> Loading vocations
+[12/10/2019 0:52:47] >> Loading outfits
+[12/10/2019 0:52:47] >> Loading chat channels
+[12/10/2019 0:52:47] >> Loading script systems
+[12/10/2019 0:52:48] [Error - LuaInterface::loadFile] cannot open data/actions/scripts/heal/senzu_leaf.lua: No such file or directory
+[12/10/2019 0:52:48] [Warning - Event::loadScript] Cannot load script (data/actions/scripts/heal/senzu_leaf.lua)
+[12/10/2019 0:52:48] cannot open data/actions/scripts/heal/senzu_leaf.lua: No such file or directory
+[12/10/2019 0:52:48] >> Loading mods...
+[12/10/2019 0:52:48] > Loading Clean Houses.xml... done.
+[12/10/2019 0:52:48] > Loading Run Event.xml... done.
+[12/10/2019 0:52:48] > Loading Simple Task.xml... done.
+[12/10/2019 0:52:48] > 3 mods were loaded.
+[12/10/2019 0:52:48] >> Loading experience stages
+[12/10/2019 0:52:48] >> Loading monsters
+[12/10/2019 0:52:48] >> Loading map and spawns...
+[12/10/2019 0:52:48] > FATAL: OTBM Loader - Could not open the file data/world/world.otbm.
